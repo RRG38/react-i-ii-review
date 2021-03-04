@@ -4,7 +4,11 @@ Answer these on your own, then compare answers as a group
 
 1.  What are props?
 
+Props, short for properties, allow us to pass data from a parent compnenet to a child component
+
 2.  How do you pass props from a parent to a child?
+
+By rendering a child component inside of our JSX then setting an attribute on the rendered component with the data that we want to pass as a value for the attribute
 
 3.  How do you access props from a class based child component?
 

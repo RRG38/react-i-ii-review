@@ -4,21 +4,41 @@ Answer these on your own, then compare answers as a group
 
 1.  What is React?
 
+React is a Javascript library used to manage the DOM and create front end applications.
+-has its own virtual DOM
+-uses component based architecture and unidirectional data flow
+
 2.  What is create-react-app?
+
+-A package that sets up a new React project
+-Also sets up a developer server that will auto-refresh on changes
 
 3.  What is Component Based Architecture?
 
+-The concept of encapsulating individual pieces of code to bring together into a larger project/app
+
 4.  What is JSX?
+
+A syntax extension to Javascript, it produces React "elements" that show how the UI should appear for that React element.
+It is the syntaxt 
 
 5.  What is the virtual DOM?
 
+The virtual DOM is a light-weight copy of the actual DOM.  It is what we will be using to update our user interface in React.
+
 6.  What is unidirectional (one-way) data flow?
+
+This is how React will handle its data meaning that data is passed down from the top of the application to the bottom.  Then use events to send data back up the component tree.
 
 ### Understand
 
 Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
+
+Packages and dependencies to install to easily start building
+
+my-app is the name give of your app
 
 8.  Explain what this code does:
 
@@ -39,6 +59,8 @@ export default Mentor;
 ```
 
 9.  Explain how data is passed from a parent component to a child component.
+
+Only way to pass data from parent to child is through props.
 
 ### Apply
 

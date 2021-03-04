@@ -4,9 +4,15 @@ Answer these on your own, then compare answers as a group
 
 1.  What is state?
 
+Class components can hold what is called state.  It is what is used to keep track of datat that is specific to a compnent.  Object uses key/value pairs.
+
 2.  Where do you set initial state?
 
+In the constructor under where we call super
+
 3.  What method do you use to update state?
+
+.setState()
 
 ### Understand
 
@@ -46,6 +52,10 @@ class LeadMentor extends Component {
 Try these on your own, but work together if you start to get stuck.
 
 5.  Create a `Student` component that keeps track of the number of questions the student has asked, with a button that adds 1 to the total when it's clicked
+
+class Student extends Component {
+
+}
 
 6.  Now add a text input where the student can type in their questions with a button to add them to a list of questions that is displayed below the number of questions asked.
 
